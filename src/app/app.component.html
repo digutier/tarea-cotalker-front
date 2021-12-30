@@ -1,0 +1,29 @@
+<p>
+  Fecha inicial:  <mat-form-field appearance="legacy">
+  <input matInput placeholder="aaaa-mm-dd" [(ngModel)]="ini">
+</mat-form-field>Fecha final:  <mat-form-field appearance="legacy">
+  <input matInput placeholder="aaaa-mm-dd" [(ngModel)]="fin">
+</mat-form-field>
+Id compania:  <mat-form-field appearance="legacy">
+  <input matInput placeholder="X" [(ngModel)]="comp">
+</mat-form-field>
+Id usuario (-1 si son todos los usuarios):  <mat-form-field appearance="legacy">
+  <input matInput placeholder="X" [(ngModel)]="usu">
+</mat-form-field>
+Tiempo de sesion activa:  <mat-form-field appearance="legacy">
+  <input matInput placeholder="X" [(ngModel)]="inter">
+</mat-form-field><button (click)='modChart(ini,fin,usu,comp,inter)' type="button">Buscar</button>
+</p>
+<script>
+  function lafun() {
+    modChart(document.getElementById("ini").value,document.getElementById("fin").value,document.getElementById("usu").value,document.getElementById("comp").value,document.getElementById("inter").value)
+  }
+</script>
+<div width="400" height="400">
+  <canvas id="canvas">
+    {{chart}}
+  </canvas>
+  <script>
+    console.log("asdasd");
+  </script>
+</div>
