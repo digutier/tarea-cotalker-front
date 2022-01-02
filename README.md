@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Dentro de la interfaz de la aplicación
 
-### Ahora podrá ver la vista principal, donde deberá rellenar los campos necesarios para filtrar y realizar la búsqueda de la cantidad de sesiones activas con respecto al tiempo. Es necesario el rellenar todos los campos que se le pide, es decir, son todos obligatorios. Cabe destacar que para intervalos muy grandes de tiempo, o para casos de compañías que poseen muchos usuarios donde se pide buscar las sesiones de todos los usuarios, el tiempo de carga puede tardar mucho tiempo (aproximadamente 30 segundos).
+### Ahora podrá ver la vista principal, donde deberá rellenar los campos necesarios para filtrar y realizar la búsqueda de la cantidad de sesiones activas con respecto al tiempo. Es necesario el rellenar todos los campos que se le pide, es decir, son todos obligatorios. Cabe destacar que para intervalos muy grandes de tiempo, o para casos de compañías que poseen muchos usuarios donde se pide buscar las sesiones de todos los usuarios, el tiempo de carga puede tardar mucho tiempo (no más de 1 minuto).
 
 ## Consideraciones sobre el desarrollo
 
