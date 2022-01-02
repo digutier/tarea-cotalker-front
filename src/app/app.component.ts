@@ -29,12 +29,11 @@ export class AppComponent {
 
 
   ngOnInit() {
-    let asd = JSON.stringify({inicio:"2017-2-23", fin: "2017-3-24", usuarios: "-1", compania: "2", intervalo: 60});
+    let asd = JSON.stringify({inicio:"2017-2-23", fin: "2017-3-24", usuarios: "2", compania: "2", intervalo: 60});
     this.service.graphData(asd).then((res) => {
       this.result = res;
       this.graphDate = Object.keys(this.result);
       this.graphNumber = Object.values(this.result);
-      //console.log(this.graphDate);
 
       //Grafico
 
@@ -64,7 +63,6 @@ export class AppComponent {
       this.result = res;
       this.graphDate = Object.keys(this.result);
       this.graphNumber = Object.values(this.result);
-      //console.log(this.graphDate);
 
       //Grafico
 
