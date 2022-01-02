@@ -2,26 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Development server
+## Instrucciones para correrlo en consola
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### En primer lugar, se deberá correr dentro de la carpeta raíz del código fuente el siguiente comando "npm install" para poder instalar los componentes necesarios para su uso.
 
-## Code scaffolding
+### Una vez finalizado, deberá correr el comando "npm start" para iniciar el despliegue. Esto será en la URL http://localhost:4200/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Dentro de la interfaz de la aplicación
 
-## Build
+### Ahora podrá ver la vista principal, donde deberá rellenar los campos necesarios para filtrar y realizar la búsqueda de la cantidad de sesiones activas con respecto al tiempo. Es necesario el rellenar todos los campos que se le pide, es decir, son todos obligatorios.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Consideraciones sobre el desarrollo
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Por temas de tiempo debido al fin de año y fin de semestre, no se implementaron algunos aspectos importantes con respecto a buenas prácticas de desarrollo de aplicaciones. Sin embargo de igual forma se logró cumplir todos los requisitos funcionales que se solicitaban. Entre los aspectos faltantes a desarrollar se encuentra:
+* El manejo de errores.
+* La implementación de una interfaz más amigable para el usuario.
+* El manejo dinámico del eje X al momento de mostrar un tiempo para un intervalo muy grande entre fechas.
+* Manejo de campos obligatorios de texto. (le permite buscar sin haber rellenado algún campo, sin embargo, no le mostrará resultado alguno en ese caso).
